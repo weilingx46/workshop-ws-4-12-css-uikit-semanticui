@@ -36,7 +36,6 @@ Note that `data-uk-slideshow` must be included in order to load the necessary Ja
 Take a look! You should see a single image that isn't changing. Since we have no navigation buttons, there's also no way to change that image. Annoying.
 
 ![slideshow-bare](tutorial-screenshots/slideshow.png)
-
 If you don't want to have any buttons, but want the slideshow to autoplay, replace `data-uk-slideshow` in the `<ul>` tag with `data-uk-slideshow="{autoplay:true}"`. Now, the slideshow should autoplay.
 
 Navigation buttons would still be nice, though. To add navigation buttons, we'll need to create a `<div>` that holds both the slideshow `<ul>` and the buttons. We'll start by
@@ -60,7 +59,6 @@ With UiKit, these navigation buttons are hyperlinks with `class="uk-slidenav uk-
 The page should look something like this:
 
 ![slideshow-arrows](tutorial-screenshots/slideshow-arrows.png)
-
 Now, you'll be able to navigate back and forth between images. But what if we want to skip to a particular image? We can insert a dotnav component to add this functionality. The dotnav menu is an unordered list with `class="uk-dotnav"`. We recommend using `class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center"` as well to make it look better. Each dot is a `<li>` element, where `data-uk-slideshow-item` indicates which slideshow image the dot will link to. Note that the numbers for `data-uk-slideshow-item` are zero-indexed and correspond directly to the order in which the images appear in your original slideshow `<ul>`. You could play around with these indices if you wanted (e.g. set everything to reference image 0), but that doesn't seem very productive...
 ```html
 <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true}">
@@ -81,5 +79,4 @@ Now, you'll be able to navigate back and forth between images. But what if we wa
 
 You should get something that looks like this:
 ![slideshow-dots](tutorial-screenshots/slideshow-dots.png)
-
 Hooray! You've created an image slideshow with elegant navigation buttons.
