@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="uikit/css/uikit.min.css" />
+        <link rel="stylesheet" href="uikit/css/components/dotnav.css" />
+        <link rel="stylesheet" href="uikit/css/components/slidenav.css" />
+        <link rel="stylesheet" href="uikit/css/components/slideshow.css" />
+    </head>
+    <body>
+      <header class="uk-flex uk-flex-space-around uk-flex-middle">
+        <a href="#"><img src="img/logo.png"/></a>
+        <div>
+          <nav class="uk-navbar">
+            <ul class="uk-navbar-nav">
+              <li><a href="#">Admissions</a></li>
+              <li><a href="#">Schools</a></li>
+              <li><a href="#">Centers</a></li>
+              <li><a href="#">Global</a></li>
+              <li><a href="#">Arts</a></li>
+              <li><a href="#">Athletics</a></li>
+              <li><a href="#">Giving</a></li>
+            </ul>
+          </nav>
+          <nav class="uk-navbar">
+            <ul class="uk-navbar-nav">
+              <li class="uk-parent" data-uk-dropdown>
+                <a href="#">EDUCATION</a>
+                <div class="uk-dropdown uk-dropdown-navbar">
+                  <ul class="uk-nav uk-nav-navbar">
+                    <li><a href="#">Degree Finder</a></li>
+                    <li><a href="#">Departments & Programs</a></li>
+                    <li><a href="#">Global Learning</a></li>
+                    <li><a href="#">Graduate Schools</a></li>
+                    <li><a href="#">Lifelong Learning</a></li>
+                    <li><a href="#">Summer at Dartmouth</a></li>
+                    <li><a href="#">The Undergraduate Experience</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="uk-parent" data-uk-dropdown>
+                <a href="#">RESEARCH</a>
+                <div class="uk-dropdown uk-dropdown-navbar">
+                  <ul class="uk-nav uk-nav-navbar">
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Faculty Experts</a></li>
+                    <li><a href="#">Research Centers</a></li>
+                    <li><a href="#">Schools & Departments</a></li>
+                    <li><a href="#">Research Support</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="uk-parent" data-uk-dropdown>
+                <a href="#">LIFE AND COMMUNITY</a>
+                <div class="uk-dropdown uk-dropdown-navbar">
+                  <ul class="uk-nav uk-nav-navbar">
+                    <li><a href="#">Explore the Green</a></li>
+                    <li><a href="#">Arts Across Campus</a></li>
+                    <li><a href="#">Athletics & Recreation</a></li>
+                    <li><a href="#">Diversity</a></li>
+                    <li><a href="#">Health & Wellness</a></li>
+                    <li><a href="#">Information, Technology & Consulting</a></li>
+                    <li><a href="#">Outdoors</a></li>
+                    <li><a href="#">Residential Life</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Student Groups & Activities</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <hr class="uk-grid-divider"/>
+
+      <main>
+        <!-- Stock images taken from pexels.com -->
+        <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true}">
+          <ul class="uk-slideshow">
+            <li> <img src="img/slide-1.jpg" alt="test" uk-cover> </li>
+            <li> <img src="img/slide-2.jpg" alt="test" uk-cover> </li>
+            <li> <img src="img/slide-3.jpg" alt="test" uk-cover> </li>
+            <li> <img src="img/slide-4.jpg" alt="test" uk-cover> </li>
+            <li> <img src="img/slide-5.jpg" alt="test" uk-cover> </li>
+          </ul>
+          <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+          <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+          <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+            <li data-uk-slideshow-item="0"><a href=""></a></li>
+            <li data-uk-slideshow-item="1"><a href=""></a></li>
+            <li data-uk-slideshow-item="2"><a href=""></a></li>
+            <li data-uk-slideshow-item="3"><a href=""></a></li>
+            <li data-uk-slideshow-item="4"><a href=""></a></li>
+          </ul>
+        </div>
+
+      </main>
+
+      <footer>
+
+      </footer>
+
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+      <script src="uikit/js/uikit.min.js"></script>
+      <script src="uikit/js/components/slideshow.min.js"></script>
+      <script src="uikit/js/components/slideshow-fx.min.js"></script>
+    </body>
+</html>
