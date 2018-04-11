@@ -1,8 +1,57 @@
-# UIkit Workshop: Tutorial
+# UIKit Workshop: Tutorial
 ### CS 52, Spring 2018
 ### 04/12/2018
 
 ## Grid
+The Grid system is a responsive layout that allows elements to be positioned
+cleanly without using flex boxes. Simply apply different classes as you did in
+Bootstrap. We have copied the images from the Dartmouth homepage to redesign it
+using the UIKit grid system.
+
+
+
+
+Begin by taking a look at how the nested grid system works.
+![screen shot 2018-04-11 at 5 07 22 pm](https://user-images.githubusercontent.com/25258775/38643654-e0c87aa4-3dab-11e8-94e0-e7df16a1ff73.png)
+
+Similar to Bootstrap, you can apply multiple classes into an HTML element. These are
+the classes that will be most commonly used:
+
+.uk-grid: applied to grid containers
+.uk-width-(fraction): specifies how the container will be divided
+
+The grid container (parent div) can be divided into halves, thirds, fourths,
+fifths, sixths, and tenths. The children can then be divided again like the following:
+![screen shot 2018-04-11 at 5 36 52 pm](https://user-images.githubusercontent.com/25258775/38644571-fbe88042-3dae-11e8-9436-f9437f4a98ef.png)
+
+Your turn! Divide the parent container into half and one of its children into half
+again. Add the 'grid-1.jpg' to the first child, a text to the second child, and
+an image of your choice to the other second child. It should look like this:
+
+If you'd like to
+
+```html
+<div class="uk-grid">
+  <div class="uk-grid-width-3-10">
+    <p> I love CS52! </p>
+  </div>
+  <div class="uk-grid-width-7-10">
+    <p> I am an Engineer. </p>
+  </div>
+</div>
+```
+(optional) Like flex boxes, we can make these divs responsive. Add the word
+"medium", or "large" after "width" to have to have response from different
+devices
+
+Grid Gutters are useful for controlling
+
+
+
+
+<!-- Last Part -->
+For more information, take a look at the following link:
+https://getuikit.com/v2/docs/grid.html
 
 ## Navbar, Customizer
 
