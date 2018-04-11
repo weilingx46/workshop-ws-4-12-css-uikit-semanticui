@@ -80,3 +80,8 @@ Now, you'll be able to navigate back and forth between images. But what if we wa
 You should get something that looks like this:
 ![slideshow-dots](tutorial-screenshots/slideshow-dots.png)
 Hooray! You've created an image slideshow with elegant navigation buttons.
+
+
+## Resources
+
+* [Slideshow Documentation](https://getuikit.com/v2/docs/slideshow.html)
