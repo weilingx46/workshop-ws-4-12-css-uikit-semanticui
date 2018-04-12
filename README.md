@@ -11,7 +11,7 @@ To begin, start by going to this [Github repo](https://github.com/dartmouth-cs52
 Now you have your own version of our workshop repo that you can change and push to.
 
 ## Header and Navigation Bar
-Let's turn to the header and the navigation bar. The [Dartmouth homepage's](https:www.dartmouth.edu) header is rather unique, but even so we can mimic it closely using the flexibility of UIkit. You should begin with the HTML header structure which we have provided:
+Let's turn to the header and the navigation bar. The [Dartmouth homepage's](https://home.dartmouth.edu/) header is rather unique, but even so we can mimic it closely using the flexibility of UIkit. You should begin with the HTML header structure which we have provided:
 
 ```HTML
 <header class="">
