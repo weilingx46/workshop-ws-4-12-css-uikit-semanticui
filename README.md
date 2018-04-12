@@ -9,7 +9,8 @@ We'll be implementing the following components:
 - [ ] A nicely formatted header and navbar
 - [ ] A grid layout for your webpage
 - [ ] An autoplaying slideshow with responsive navigation buttons
-- [ ] (Chris) insert something about Scrollspy
+- [ ] Content nicely aligned using the UiKit grid layout
+- [ ] Some images and text using smooth javascript animations
 
 ## Getting Started!
 
