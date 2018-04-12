@@ -88,8 +88,6 @@ Finally, we want to format the individual sub-links as elements of a navigation 
 
 Once you have completed adding the dropdown list to the *Education* link, you should repeat the process as described above for the *Research* and *Life & Community* links.
 
-<<<<<<< HEAD
-=======
 ## Grid
 The Grid system is a responsive layout that allows elements to be positioned
 cleanly without using flex boxes. Simply apply different classes as you did in
@@ -152,7 +150,6 @@ devices.
 
 If you'd like to learn more about grids, click [here](https://getuikit.com/v2/docs/grid.html).
 
->>>>>>> 9cda75321ac1a068e5350a363b63baf7d6e77915
 ## Adding an Image Slideshow with Navigation Buttons
 
 Let's make the webpage look better by adding a slideshow!
@@ -298,7 +295,7 @@ If you'd like to learn more about grids, please check out this [link](https://ge
 The scrollspy component uses javascript to listen to page scrolling and triggers events based on the current page position.
 For example, it can be used to smoothly animate content as it scrolls into the browser window.
 For reference:
-[link](https://getuikit.com/v2/docs/scrollspy.html)
+[Scrollspy](https://getuikit.com/v2/docs/scrollspy.html)
 
 Let's add another grid component with some images that we can then animate.
 Add the following code to the bottom of your main tag, beneath the previous grid:
@@ -358,7 +355,7 @@ To animate an individual component, just add one attribute to its html:
 ```HTML
 data-uk-scrollspy="{cls:'uk-animation-fade'}"
 ```
-For a full list of possible animations, check out [link](https://getuikit.com/v2/docs/animation.html)
+For a full list of possible animations, check out [Animations](https://getuikit.com/v2/docs/animation.html)
 
 Let's animate the first two grids!
 Try getting the content on the left side of the grids to slide in from the left, and the content on the right to slide in from the right.
