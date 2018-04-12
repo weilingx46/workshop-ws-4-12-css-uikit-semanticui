@@ -334,7 +334,12 @@ You'll see that the menu is organized alphabetically by CSS component names, whi
 
 Make some changes to the color scheme and fonts in the Customizer, as well as any other changes that you want. The main page will update to reflect your custom CSS properties. Feel free to play around!
 
-When you're done customizing, you can click on the `Get CSS` button on the bottom to download a custom `uikit.css` file. Replace the `uikit.css` in your repo (located in `repo directory > uikit > css`) with your custom file. Open up your webpage, and the theme should have changed to your custom theme!
+When you're done customizing, you can click on the `Get CSS` button on the bottom to download a custom `uikit.css` file. Replace the `uikit.css` in your repo (located in `repo directory > uikit > css`) with your custom file. Go into the `<head>` of your code, and change the link to your new `uitkit.css`. 
+
+```html
+<link rel="stylesheet" href="uikit/css/uikit.css">
+```
+Open up your webpage, and the theme should have changed to your custom theme!
 
 ## Explore on your own (Extra Steps)
 
