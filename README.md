@@ -140,8 +140,7 @@ Your HTML elements should look something like this:
 "medium", or "large" after "width" to have to have response from different
 devices.
 
-If you'd like to learn more about grids, please check out this link:
-https://getuikit.com/v2/docs/grid.html
+If you'd like to learn more about grids, please check out this [link](https://getuikit.com/v2/docs/grid.html)
 
 ## Adding an Image Slideshow with Navigation Buttons
 
