@@ -20,23 +20,40 @@ the classes that will be most commonly used:
 .uk-width-(fraction): specifies how the container will be divided
 
 The grid container (parent div) can be divided into halves, thirds, fourths,
-fifths, sixths, and tenths. The children can then be divided again like the following:
+fifths, sixths, and tenths. Once sum of the fractions listed in the width classes
+pass 1 (i.e. uk-grid-width-1-2 comes after two width-1-2, )
+
+
+The children can then be divided again like the following:
 ![screen shot 2018-04-11 at 5 36 52 pm](https://user-images.githubusercontent.com/25258775/38644571-fbe88042-3dae-11e8-9436-f9437f4a98ef.png)
 
 Your turn! Divide the parent container into half and one of its children into half
 again. Add the 'grid-1.jpg' to the first child, a text to the second child, and
 an image of your choice to the other second child. It should look like this:
 
-If you'd like to
 
 ```html
 <div class="uk-grid">
-  <div class="uk-grid-width-3-10">
-    <p> I love CS52! </p>
-  </div>
-  <div class="uk-grid-width-7-10">
-    <p> I am an Engineer. </p>
-  </div>
+    <div class="uk-width-large-1-2">
+        <a href="#"><img src="img/grid-1.jpg"></a>
+    </div>
+    <div class="uk-width-large-1-2 uk-grid">
+        <div class="uk-width-large-1-2">
+            <a href="#"> <img src="https://home.dartmouth.edu/sites/default/files/styles/hover_feature/public/2015-1058110353.jpg?itok=5nAbdBWo"> </a>
+        </div>
+        <div class="uk-width-large-1-2 uk-align-center">
+            <a href="#"> <img src="img/grid-2.jpg"> </a>
+        </div>
+        <div class="uk-width-small-1-2 uk-grid-match">
+            <p> Roshini Pinto-Powell, a professor at the Geisel School of Medicine, discusses an ongoing pay gap between female and male doctors. The exact size of this gap varies from study to study―by which I mean it ranges from bad to worse. </p>
+        </div>
+        <div class="uk-width-small-1-2 uk-grid-match">
+            <h3>EVENTS</h3>
+            <p> APRIL 11 <br> Presidential Faculty Lecture: Sexual Violence, Social Meanings, and Narrative Selves </p>
+            <p> APRIL 11 <br> Workshop: Introduction to Entrepreneurship, Daniella Reichstetter, Tuck 07, Tuck School of Business </p>
+            <p> APRIL 11 <br> Artist Talk: Using Your Voice, singer Dayme Arocena talks with Dartmouths Taylor Ho Bynum </p>
+        </div>
+    </div>
 </div>
 ```
 (optional) Like flex boxes, we can make these divs responsive. Add the word
