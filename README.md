@@ -5,12 +5,13 @@
 ## Overview
 In this tutorial, we're going to use UiKit to easily build a classy landing page. We mimic the Dartmouth homepage - by the end of the tutorial, you'll have a landing page that looks something like the following:
 
+![Finished Webpage](/tutorial-screenshots/final-webpage.gif)
+
 We'll be implementing the following components:
-- [ ] A nicely formatted header and navbar
-- [ ] A grid layout for your webpage
+- [ ] A formatted and responsive header and navbar
+- [ ] Nicely aligned content using the UiKit grid layout
 - [ ] An autoplaying slideshow with responsive navigation buttons
-- [ ] Content nicely aligned using the UiKit grid layout
-- [ ] Some images and text using smooth javascript animations
+- [ ] Some images and text using smooth javascript animations with Scrollspy
 
 ## Getting Started!
 
@@ -86,6 +87,67 @@ Finally, we want to format the individual sub-links as elements of a navigation 
 
 Once you have completed adding the dropdown list to the *Education* link, you should repeat the process as described above for the *Research* and *Life & Community* links.
 
+<<<<<<< HEAD
+=======
+## Grid
+The Grid system is a responsive layout that allows elements to be positioned
+cleanly without using flex boxes. Simply apply different classes as you did in
+Bootstrap. We have copied the images from the Dartmouth homepage to redesign it
+using the UIKit grid system.
+
+Begin by taking a look at how the nested grid system works.
+![screen shot 2018-04-11 at 5 07 22 pm](https://user-images.githubusercontent.com/25258775/38643654-e0c87aa4-3dab-11e8-94e0-e7df16a1ff73.png)
+
+Similar to Bootstrap, you can apply multiple classes into an HTML element. These are
+example classes that will be most commonly used:
+
+`.uk-grid`: applied to grid containers
+`.uk-width-2-5`: specifies how the container will be divided
+`.uk-push-3-10`: specifies margins between elements in the same container
+`.uk-grid-medium`: unifies the spacing between elements to medium
+
+The grid container (parent div) can be divided into halves, thirds, fourths,
+fifths, sixths, and tenths. The children can then be divided again like the following:
+![screen shot 2018-04-11 at 5 36 52 pm](https://user-images.githubusercontent.com/25258775/38644571-fbe88042-3dae-11e8-9436-f9437f4a98ef.png)
+
+Each container can also be divided into multiple columns. Use the `ul` tag as the
+grid container and li tags as the individual columns.
+![screen shot 2018-04-12 at 1 27 10 am](https://user-images.githubusercontent.com/25258775/38658603-db9a9f38-3df3-11e8-9e8e-7f9eafede52c.png)
+
+Grid Gutters are useful for controlling spaces between grid columns. From the
+layout you just have, apply a large gutter and a small gutter. Adjust the gutter
+size using `.uk-grid-large`, `.uk-grid-medium`, or `.uk-grid-small`. If you want to
+manually adjust spaces, use the `.uk-push/pull-*` class. If you need spacing between
+each container, apply the `.data-uk-grid-margin` class. If you'd like to match
+the columns of each grid, apply the `data-uk-grid-match="{row: false}` class.
+
+Your turn! Divide the parent container into a size of your choice and then
+one of its children into a size of your choice again (feel free to keep going!)
+We have some sample images in our *img* folder, so feel free to use those. If you'd
+like to insert a paragraph and center it, apply the `.uk-text-center` class.
+
+Your HTML elements should look something like this:
+
+```html
+<div class="uk-width-large-1-2">
+  ...
+</div>
+<div class="uk-width-large-1-2 uk-grid">
+  <div class="uk-width-large-1-2 uk-pull-3-5">... </div>
+  <div class="uk-width-large-1-2 uk-pull-2-5"> ... </div>
+  <div class="uk-width-small-1-2"> ... </div>
+  <div class="uk-width-small-1-2"> ... </div>
+  ...
+</div>
+```
+
+(optional) Like flex boxes, we can make these divs responsive. Add the word
+"medium", or "large" after "width" to have to have response from different
+devices.
+
+If you'd like to learn more about grids, click [here](https://getuikit.com/v2/docs/grid.html).
+
+>>>>>>> 9cda75321ac1a068e5350a363b63baf7d6e77915
 ## Adding an Image Slideshow with Navigation Buttons
 
 Let's make the webpage look better by adding a slideshow!
@@ -346,6 +408,15 @@ Some components that we recommend for future projects...
   + Search
   + Accordion
   + Slideshow
+
+## Summary
+
+In this tutorial, you've learned how to use UiKit to do the following:
+- [x] Quickly create a nicely formatted header and navbar
+- [x] Use a elegant grid layout for your webpage
+- [x] Insert a autoplaying slideshow with responsive navigation buttons
+- [x] Make smooth javascript animations with Scrollspy
+- [ ] Use Customizer to tailor UiKit's CSS components (Optional)
 
 ## Resources
 
