@@ -246,12 +246,11 @@ Some components that we recommend for future projects...
   + Smooth Scroll
   + Animation
 
-
 + Extra components
- + Dynamic Grid (super cool)
- + Search
- + Accordion
- + slideshow
+  + Dynamic Grid (super cool)
+  + Search
+  + Accordion
+  + slideshow
 
 ## Resources
 
