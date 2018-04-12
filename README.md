@@ -196,18 +196,18 @@ fifths, sixths, and tenths. The children can then be divided again like the foll
 ![screen shot 2018-04-11 at 5 36 52 pm](https://user-images.githubusercontent.com/25258775/38644571-fbe88042-3dae-11e8-9436-f9437f4a98ef.png)
 
 Each container can also be divided into multiple columns. Use the `ul` tag as the
-grid container and li tags as the individual columns.
+grid container and `li` tags as the individual columns.
 ![screen shot 2018-04-12 at 1 27 10 am](https://user-images.githubusercontent.com/25258775/38658603-db9a9f38-3df3-11e8-9e8e-7f9eafede52c.png)
 
 Grid Gutters are useful for controlling spaces between grid columns. From the
 layout you just have, apply a large gutter and a small gutter. Adjust the gutter
-size using .uk-grid-large, .uk-grid-medium, or .uk-grid-small. If you want to
-manually adjust spaces, use the .uk-push/pull-* class. If you need spacing between
-each container, apply the .data-uk-grid-margin class.
+size using `"uk-grid-large"`, `"uk-grid-medium"`, or `".uk-grid-small"`. If you want to
+manually adjust spaces, use the `".uk-push/pull-*"` class. If you need spacing between
+each container, apply the `"data-uk-grid-margin"` class.
 
 Your turn! Divide the parent container into a size of your choice and then
 one of its children into a size of your choice again (feel free to keep going!)
-We have some sample images in our img folder, so feel free to use those. If you'd
+We have some sample images in our *img* folder, so feel free to use those. If you'd
 like to insert a paragraph and center it, apply the `"uk-text-center class"`.
 
 Your HTML elements should look something like this:
@@ -334,7 +334,7 @@ You'll see that the menu is organized alphabetically by CSS component names, whi
 
 Make some changes to the color scheme and fonts in the Customizer, as well as any other changes that you want. The main page will update to reflect your custom CSS properties. Feel free to play around!
 
-When you're done customizing, you can click on the `Get CSS` button on the bottom to download a custom `uikit.css` file. Replace the `uikit.css` in your repo (located in `repo directory > uikit > css`) with your custom file. Go into the `<head>` of your code, and change the link to your new `uitkit.css`. 
+When you're done customizing, you can click on the `Get CSS` button on the bottom to download a custom `uikit.css` file. Replace the `uikit.css` in your repo (located in `repo directory > uikit > css`) with your custom file. Go into the `<head>` of your code, and change the link to your new `uitkit.css`.
 
 ```html
 <link rel="stylesheet" href="uikit/css/uikit.css">
