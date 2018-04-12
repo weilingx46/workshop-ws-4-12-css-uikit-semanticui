@@ -37,7 +37,7 @@ Let's turn to the header and the navigation bar. The [Dartmouth homepage's](http
     </nav>
     <nav class="">
       <ul class="">
-        <li class="" data-uk-dropdown>
+        <li class="">
           <a href="#">EDUCATION</a>git
           <div class="">
             <ul class="">
