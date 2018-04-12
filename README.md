@@ -11,7 +11,7 @@ We'll be implementing the following components:
 - [ ] A formatted and responsive header and navbar
 - [ ] Nicely aligned content using the UiKit grid layout
 - [ ] An autoplaying slideshow with responsive navigation buttons
-- [ ] Some images and text using smooth javascript animations
+- [ ] Some images and text using smooth javascript animations with Scrollspy
 
 ## Getting Started!
 
@@ -266,6 +266,15 @@ Some components that we recommend for future projects...
   + Search
   + Accordion
   + Slideshow
+
+## Summary
+
+In this tutorial, you've learned how to use UiKit to do the following:
+- [x] Quickly create a nicely formatted header and navbar
+- [x] Use a elegant grid layout for your webpage
+- [x] Insert a autoplaying slideshow with responsive navigation buttons
+- [x] Make smooth javascript animations with Scrollspy
+- [ ] Use Customizer to tailor UiKit's CSS components (Optional)
 
 ## Resources
 
