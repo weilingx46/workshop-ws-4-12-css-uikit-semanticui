@@ -259,7 +259,7 @@ Some components that we recommend for future projects...
   + Dynamic Grid (super cool)
   + Search
   + Accordion
-  + slideshow
+  + Slideshow
 
 ## Resources
 
