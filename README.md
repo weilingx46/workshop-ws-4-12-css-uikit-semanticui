@@ -98,28 +98,28 @@ Begin by taking a look at how the nested grid system works.
 Similar to Bootstrap, you can apply multiple classes into an HTML element. These are
 example classes that will be most commonly used:
 
-.uk-grid: applied to grid containers
-.uk-width-2-5: specifies how the container will be divided
-.uk-push-3-10: specifies margins between elements in the same container
-.uk-grid-medium: unifies the spacing between elements to medium
+'.uk-grid': applied to grid containers
+'.uk-width-2-5': specifies how the container will be divided
+'.uk-push-3-10': specifies margins between elements in the same container
+'.uk-grid-medium': unifies the spacing between elements to medium
 
 The grid container (parent div) can be divided into halves, thirds, fourths,
 fifths, sixths, and tenths. The children can then be divided again like the following:
 ![screen shot 2018-04-11 at 5 36 52 pm](https://user-images.githubusercontent.com/25258775/38644571-fbe88042-3dae-11e8-9436-f9437f4a98ef.png)
 
-Each container can also be divided into multiple columns. Use the ul tag as the
+Each container can also be divided into multiple columns. Use the 'ul' tag as the
 grid container and li tags as the individual columns.
 ![screen shot 2018-04-12 at 1 27 10 am](https://user-images.githubusercontent.com/25258775/38658603-db9a9f38-3df3-11e8-9e8e-7f9eafede52c.png)
 
 Grid Gutters are useful for controlling spaces between grid columns. From the
 layout you just have, apply a large gutter and a small gutter. Adjust the gutter
-size using .uk-grid-large, .uk-grid-medium, or .uk-grid-small. If you want to
-manually adjust spaces, use the .uk-push/pull-* class. If you need spacing between
-each container, apply the .data-uk-grid-margin class.
+size using '.uk-grid-large', '.uk-grid-medium', or '.uk-grid-small'. If you want to
+manually adjust spaces, use the '.uk-push/pull-*' class. If you need spacing between
+each container, apply the '.data-uk-grid-margin' class.
 
 Your turn! Divide the parent container into a size of your choice and then
 one of its children into a size of your choice again (feel free to keep going!)
-We have some sample images in our img folder, so feel free to use those. If you'd
+We have some sample images in our *img* folder, so feel free to use those. If you'd
 like to insert a paragraph and center it, apply the .uk-text-center class.
 
 Your HTML elements should look something like this:
