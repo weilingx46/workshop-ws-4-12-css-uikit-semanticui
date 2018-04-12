@@ -84,7 +84,7 @@ We've included a separate container (`<div>`) for the list of sub-links. To spec
 
 Finally, we want to format the individual sub-links as elements of a navigation bar. To do so:
 
-* Add both the `"uk-navbar" "uk-navbar-nav"` classes to the `<ul>` tag parenting the list of sub-links.
+* Add the `"uk-nav uk-nav-navbar"` classes to the `<ul>` tag parenting the list of sub-links.
 
 Once you have completed adding the dropdown list to the *Education* link, you should repeat the process as described above for the *Research* and *Life & Community* links.
 
