@@ -5,6 +5,8 @@
 ## Overview
 In this tutorial, we're going to use UiKit to easily build a classy landing page. We mimic the Dartmouth homepage - by the end of the tutorial, you'll have a landing page that looks something like the following:
 
+![Finished Webpage](/tutorial-screenshots/final-webpage.gif)
+
 We'll be implementing the following components:
 - [ ] A nicely formatted header and navbar
 - [ ] A grid layout for your webpage
