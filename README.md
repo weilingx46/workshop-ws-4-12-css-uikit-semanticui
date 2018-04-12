@@ -86,63 +86,6 @@ Finally, we want to format the individual sub-links as elements of a navigation 
 
 Once you have completed adding the dropdown list to the *Education* link, you should repeat the process as described above for the *Research* and *Life & Community* links.
 
-## Grid
-The Grid system is a responsive layout that allows elements to be positioned
-cleanly without using flex boxes. Simply apply different classes as you did in
-Bootstrap. We have copied the images from the Dartmouth homepage to redesign it
-using the UIKit grid system.
-
-Begin by taking a look at how the nested grid system works.
-![screen shot 2018-04-11 at 5 07 22 pm](https://user-images.githubusercontent.com/25258775/38643654-e0c87aa4-3dab-11e8-94e0-e7df16a1ff73.png)
-
-Similar to Bootstrap, you can apply multiple classes into an HTML element. These are
-example classes that will be most commonly used:
-
-.uk-grid: applied to grid containers
-.uk-width-2-5: specifies how the container will be divided
-.uk-push-3-10: specifies margins between elements in the same container
-.uk-grid-medium: unifies the spacing between elements to medium
-
-The grid container (parent div) can be divided into halves, thirds, fourths,
-fifths, sixths, and tenths. The children can then be divided again like the following:
-![screen shot 2018-04-11 at 5 36 52 pm](https://user-images.githubusercontent.com/25258775/38644571-fbe88042-3dae-11e8-9436-f9437f4a98ef.png)
-
-Each container can also be divided into multiple columns. Use the ul tag as the
-grid container and li tags as the individual columns.
-![screen shot 2018-04-12 at 1 27 10 am](https://user-images.githubusercontent.com/25258775/38658603-db9a9f38-3df3-11e8-9e8e-7f9eafede52c.png)
-
-Grid Gutters are useful for controlling spaces between grid columns. From the
-layout you just have, apply a large gutter and a small gutter. Adjust the gutter
-size using .uk-grid-large, .uk-grid-medium, or .uk-grid-small. If you want to
-manually adjust spaces, use the .uk-push/pull-* class. If you need spacing between
-each container, apply the .data-uk-grid-margin class.
-
-Your turn! Divide the parent container into a size of your choice and then
-one of its children into a size of your choice again (feel free to keep going!)
-We have some sample images in our img folder, so feel free to use those. If you'd
-like to insert a paragraph and center it, apply the .uk-text-center class.
-
-Your HTML elements should look something like this:
-
-```html
-<div class="uk-width-large-1-2">
-  ...
-</div>
-<div class="uk-width-large-1-2 uk-grid">
-  <div class="uk-width-large-1-2 uk-pull-3-5">... </div>
-  <div class="uk-width-large-1-2 uk-pull-2-5"> ... </div>
-  <div class="uk-width-small-1-2"> ... </div>
-  <div class="uk-width-small-1-2"> ... </div>
-  ...
-</div>
-```
-
-(optional) Like flex boxes, we can make these divs responsive. Add the word
-"medium", or "large" after "width" to have to have response from different
-devices.
-
-If you'd like to learn more about grids, please check out this [link](https://getuikit.com/v2/docs/grid.html)
-
 ## Adding an Image Slideshow with Navigation Buttons
 
 Let's make the webpage look better by adding a slideshow!
@@ -225,6 +168,149 @@ Now, you'll be able to navigate back and forth between images. But what if we wa
 You should get something that looks like this:
 ![slideshow-dots](tutorial-screenshots/slideshow-dots.png)
 Hooray! You've created an image slideshow with elegant navigation buttons.
+
+## Grid
+The Grid system is a responsive layout that allows elements to be positioned
+cleanly without using flex boxes. Simply apply different classes as you did in
+Bootstrap. We have copied the images from the Dartmouth homepage to redesign it
+using the UIKit grid system.
+
+Begin by taking a look at how the nested grid system works.
+![screen shot 2018-04-11 at 5 07 22 pm](https://user-images.githubusercontent.com/25258775/38643654-e0c87aa4-3dab-11e8-94e0-e7df16a1ff73.png)
+
+Similar to Bootstrap, you can apply multiple classes into an HTML element. These are
+example classes that will be most commonly used:
+
+.uk-grid: applied to grid containers
+.uk-width-2-5: specifies how the container will be divided
+.uk-push-3-10: specifies margins between elements in the same container
+.uk-grid-medium: unifies the spacing between elements to medium
+
+The grid container (parent div) can be divided into halves, thirds, fourths,
+fifths, sixths, and tenths. The children can then be divided again like the following:
+![screen shot 2018-04-11 at 5 36 52 pm](https://user-images.githubusercontent.com/25258775/38644571-fbe88042-3dae-11e8-9436-f9437f4a98ef.png)
+
+Each container can also be divided into multiple columns. Use the ul tag as the
+grid container and li tags as the individual columns.
+![screen shot 2018-04-12 at 1 27 10 am](https://user-images.githubusercontent.com/25258775/38658603-db9a9f38-3df3-11e8-9e8e-7f9eafede52c.png)
+
+Grid Gutters are useful for controlling spaces between grid columns. From the
+layout you just have, apply a large gutter and a small gutter. Adjust the gutter
+size using .uk-grid-large, .uk-grid-medium, or .uk-grid-small. If you want to
+manually adjust spaces, use the .uk-push/pull-* class. If you need spacing between
+each container, apply the .data-uk-grid-margin class.
+
+Your turn! Divide the parent container into a size of your choice and then
+one of its children into a size of your choice again (feel free to keep going!)
+We have some sample images in our img folder, so feel free to use those. If you'd
+like to insert a paragraph and center it, apply the .uk-text-center class.
+
+Your HTML elements should look something like this:
+
+```html
+<div class="uk-width-large-1-2">
+  ...
+</div>
+<div class="uk-width-large-1-2 uk-grid">
+  <div class="uk-width-large-1-2 uk-pull-3-5">... </div>
+  <div class="uk-width-large-1-2 uk-pull-2-5"> ... </div>
+  <div class="uk-width-small-1-2"> ... </div>
+  <div class="uk-width-small-1-2"> ... </div>
+  ...
+</div>
+```
+
+(optional) Like flex boxes, we can make these divs responsive. Add the word
+"medium", or "large" after "width" to have to have response from different
+devices.
+
+If you'd like to learn more about grids, please check out this [link](https://getuikit.com/v2/docs/grid.html)
+
+
+## Adding in Animations using a Scrollspy
+The scrollspy component uses javascript to listen to page scrolling and triggers events based on the current page position.
+For example, it can be used to smoothly animate content as it scrolls into the browser window.
+For reference:
+[link](https://getuikit.com/v2/docs/scrollspy.html)
+
+Let's add another grid component with some images that we can then animate.
+Add the following code to the bottom of your main tag, beneath the previous grid:
+```html
+<hr class="uk-grid-divider"/>
+<div class="uk-grid">
+  <div class="uk-width-large-1-2">
+    <a href="#">
+      <img src="img/scrollspy-1.jpg">
+    </a>
+  </div>
+  <div class="uk-width-large-1-2 uk-vertical-align">
+    <p class="uk-vertical-align-middle">
+      Living and learning. At Dartmouth, you'll be part of a close-knit community anchored by campus life.
+      Whether in the undergraduate residence halls or the graduate student apartments near campus, you're always near friends and faculty.
+      Nearly 90 percent of undergraduates live in Dartmouth housing, including residence halls; approved co-ed, fraternity, or sorority houses; and undergraduate society and affinity houses.
+    </p>
+  </div>
+</div>
+<hr class="uk-grid-divider"/>
+<div class="uk-grid">
+  <div class="uk-width-large-1-2 uk-vertical-align">
+    <p class="uk-vertical-align-middle">
+      Philip J. Hanlon became the 18th president of Dartmouth College on June 10, 2013.
+      He is the 10th Dartmouth alumnus to serve as its president and the first since the 1981 to 1987 tenure of David T. McLaughlin.
+      President Hanlon, 60, formerly the Donald J. Lewis Professor of Mathematics at the University of Michigan,
+      earned his Bachelor of Arts degree from Dartmouth, from which he graduated Phi Beta Kappa.
+      An accomplished academic and administrative leader, Hanlon served in a succession of administrative leadership roles at Michigan for more than a decade,
+      most recently as provost and executive vice president for academic affairs. He had been a member of the faculty there since 1986.
+    </p>
+  </div>
+  <div class="uk-width-large-1-2">
+    <a href="#">
+      <img src="img/scrollspy-2.png">
+    </a>
+  </div>
+</div>
+<hr class="uk-grid-divider"/>
+<div class="uk-grid">
+  <div class="uk-width-large-1-2">
+    <a href="#">
+      <img src="img/scrollspy-3.jpg">
+    </a>
+  </div>
+  <div class="uk-width-large-1-2">
+    <a href="#">
+      <img src="img/scrollspy-4.jpg">
+    </a>
+  </div>
+</div>
+<hr class="uk-grid-divider"/>
+```
+The above html added 3 grids with some associated images and text.
+
+Animating content with a scrollspy is easy!
+To animate an individual component, just add one attribute to its html:
+```HTML
+data-uk-scrollspy="{cls:'uk-animation-fade'}"
+```
+For a full list of possible animations, check out [link](https://getuikit.com/v2/docs/animation.html)
+Let's animate the first two grids!
+Try getting the content on the left side of the grids to slide in from the left, and the content on the right to slide in from the right.
+It should look something like this:
+![animations](img/scrollspy.gif)
+
+This is great, but the animation only plays the first time the content is scrolled past.
+To enable repeated animations, change the value of the scrollspy attribute to:
+```HTML
+"{cls:'uk-animation-fade', repeat: true}"
+```
+Animating is easy, but animating lots of different content can clutter up your html.
+Fortunately, UIkit has a way to target scrollspy animations on child elements.
+Let's practice this on the last grid.
+Add the following attribute to the grids html:
+```html
+data-uk-scrollspy="{cls:'uk-animation-fade', target:'.animate-me', repeat:'true', delay:300}"
+```
+This code will animate any children of the grid with the class 'animate-me'.
+It also delays the animations for 300ms once the components are in view.
 
 ## Customizer (Extra Steps)
 
