@@ -241,17 +241,17 @@ If you have time, take a look at the [UIkit website](https://getuikit.com/v2/ind
 
 Some components that we recommend for future projects...
 
- Core
-   Off-Canvas
-   Smooth Scroll
-   Animation
++ Core
+  + Off-Canvas
+  + Smooth Scroll
+  + Animation
 
 
- Extra components
-   Dynamic Grid (super cool)
-   Search
-   Accordion
-   slideshow
++ Extra components
+ + Dynamic Grid (super cool)
+ + Search
+ + Accordion
+ + slideshow
 
 ## Resources
 
