@@ -253,6 +253,16 @@ Some components that we recommend for future projects...
    Accordion
    slideshow
 
+## Summary
+
+In this tutorial, you've learned how to use UiKit to do the following:
+- [ ] Quickly create a nicely formatted header and navbar
+- [ ] Use a elegant grid layout for your webpage
+- [ ] Insert a autoplaying slideshow with responsive navigation buttons
+- [ ] (Chris) insert something about Scrollspy
+- [ ] Use Customizer to tailor UiKit's CSS components (Optional)
+
+
 ## Resources
 
    * [Slideshow Documentation](https://getuikit.com/v2/docs/slideshow.html)
