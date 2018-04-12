@@ -115,10 +115,7 @@ grid container and li tags as the individual columns.
 ![screen shot 2018-04-12 at 1 27 10 am](https://user-images.githubusercontent.com/25258775/38658603-db9a9f38-3df3-11e8-9e8e-7f9eafede52c.png)
 
 Grid Gutters are useful for controlling spaces between grid columns. From the
-layout you just have, apply a large gutter and a small gutter. Adjust the gutter
-size using `"uk-grid-large"`, `"uk-grid-medium"`, or `"uk-grid-small"`. If you want to
-manually adjust spaces, use the `"uk-push/pull-*"` class. If you need spacing between
-each container, apply the `.data-uk-grid-margin` class. If you'd like to match
+layout you just have, apply a large gutter and a small gutter. Adjust the gutter size using `"uk-grid-large"`, `"uk-grid-medium"`, or `"uk-grid-small"`. If you want to manually adjust spaces, use the `"uk-push/pull-*"` class. If you need spacing between each container, apply the `.data-uk-grid-margin` class. If you'd like to match
 the columns of each grid, apply the `"data-uk-grid-match="{row: false}""` class.
 
 Your turn! Divide the parent container into a size of your choice and then
