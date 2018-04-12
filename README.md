@@ -164,7 +164,7 @@ and the following two lines at the end of your `<body>`:
 
 Now we're ready to start! We'll begin with a basic slideshow and add functionality as we go.
 
-With UiKit, slideshows are unordered lists with `class="uk-slideshow"`. Let's try making one by inserting the following snippet into your `<body>`:
+With UiKit, slideshows are unordered lists with `class="uk-slideshow"`. Let's try making one by inserting the following snippet into your `<main>` section:
 
 ```html
 <ul class="uk-slideshow" data-uk-slideshow>
