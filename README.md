@@ -88,8 +88,6 @@ Finally, we want to format the individual sub-links as elements of a navigation 
 
 Once you have completed adding the dropdown list to the *Education* link, you should repeat the process as described above for the *Research* and *Life & Community* links.
 
-<<<<<<< HEAD
-=======
 ## Grid
 The Grid system is a responsive layout that allows elements to be positioned
 cleanly without using flex boxes. Simply apply different classes as you did in
@@ -149,7 +147,6 @@ devices.
 
 If you'd like to learn more about grids, click [here](https://getuikit.com/v2/docs/grid.html).
 
->>>>>>> 9cda75321ac1a068e5350a363b63baf7d6e77915
 ## Adding an Image Slideshow with Navigation Buttons
 
 Let's make the webpage look better by adding a slideshow!
