@@ -1,6 +1,7 @@
 # UIkit Workshop: Tutorial
 
 ### CS 52, Spring 2018
+UiKit is a lightweight open-source front-end framework for developing web interfaces. Today, we're going to explore some cool webpage features you can easily implement using UiKit.
 
 ## Overview
 In this tutorial, we're going to use UiKit to easily build a classy landing page. We mimic the Dartmouth homepage - by the end of the tutorial, you'll have a landing page that looks something like the following:
@@ -355,6 +356,7 @@ To animate an individual component, just add one attribute to its html:
 data-uk-scrollspy="{cls:'uk-animation-fade'}"
 ```
 For a full list of possible animations, check out [link](https://getuikit.com/v2/docs/animation.html)
+
 Let's animate the first two grids!
 Try getting the content on the left side of the grids to slide in from the left, and the content on the right to slide in from the right.
 It should look something like this:
