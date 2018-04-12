@@ -152,7 +152,7 @@ Now, you'll be able to navigate back and forth between images. But what if we wa
 
 ```html
 <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true}">
-  <ul class="uk-slideshow">
+  <ul class="uk-slideshow uk-slideshow-fullscreen">
     <li> <img src="img/slide-1.jpg" alt="test" uk-cover> </li>
     <li> <img src="img/slide-2.jpg" alt="test" uk-cover> </li>
     <li> <img src="img/slide-3.jpg" alt="test" uk-cover> </li>
