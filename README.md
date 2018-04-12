@@ -4,6 +4,73 @@
 
 ### 04/12/2018
 
+## Header and Navigation Bar
+
+Let's turn to the header and the navigation bar. The [Dartmouth homepage's](https:www.dartmouth.edu) header is rather unique, but even so we can mimic it closely using the flexibility of uikit. You should begin with the HTML header structure which we have provided:
+
+```HTML
+<header class="">
+  <a href="#"><img src="img/logo.png"/></a>
+  <div>
+    <nav class="">
+      <ul class="">
+        <li><a href="#">Admissions</a></li>
+        ...
+      </ul>
+    </nav>
+    <nav class="">
+      <ul class="">
+        <li class="" data-uk-dropdown>
+          <a href="#">EDUCATION</a>
+          <div class="">
+            <ul class="">
+              <li><a href="#">Degree Finder</a></li>
+              ...
+            </ul>
+          </div>
+        </li>
+        ...
+      </ul>
+    </nav>
+  </div>
+</header>
+
+```
+The first step is formatting the layout of the header. To do so we'll use a familiar friend, `flexbox`. Uikit includes a number of flexbox-inspired classes which make the header layout easy.
+* Add the `"uk-flex uk-flex-space-around uk-flex-middle"` classes to your header tag.
+
+Now we'll turn to the navigation bar located on the right side of the header. Uikit's [Navbar classes](https://getuikit.com/v2/docs/navbar.html) provides formatting for the navigation bar and its contents.
+
+Let's start with the first row of Dartmouth's navigation tab. This is simply a list of links. To use uikit's `navbar` formatting we:
+
+* Add the `"uk-navbar"` class to the `<nav>` tag (the parent of the list)
+
+This formats the `<nav>` element as a uikit navigation bar. We then have to provide formatting for the links in the list:
+
+* Add the `"uk-navbar-nav"` class to the `<ul>` tag that opens the link list.  
+
+The second row is a little more complicated because the *Education*, *Research* and *Life & Community* links have dropdown menus when hovered over. To first format the header links, we repeat the same process as above:
+* Add the `"uk-navbar"` class to the `<nav>` tag
+* Add the `"uk-navbar-nav"` class to the `<ul>` tag.
+
+We then have to format the sub-links so that they appear as dropdown menus. To do so, we'll use uikit's [Dropdown](https://getuikit.com/v2/docs/dropdown.html) javascript feature.
+
+We'll start with the *Education* link's dropdown. First we must specify the parent of the dropdown menu and enable the dropdown javascript:
+
+* Add the `"uk-parent"` class and add `data-uk-dropdown` (*not as a class*) to the `<li>` tag which parents the list of sub-links.
+
+We've included a separate container (`<div>`) for the list of sub-links. To specify this element as the container of the dropdown list:
+
+* Add the `"uk-dropdown"` and the `"uk-dropdown-navbar"` classes to the `<div>` tag.
+
+> The `"uk-dropdown-navbar"` class specifies that this dropdown list is part of a navigation bar, providing it with additional formatting.
+
+Finally, we want to format the individual sub-links as elements of a navigation bar. To do so:
+
+* Add both the `"uk-navbar" "uk-navbar-nav"` classes to the `<ul>` tag parenting the list of sub-links.
+
+Once you have completed adding the dropdown list to the *Education* link, you should repeat the process as described above for the *Research* and *Life & Community* links.
+
 ## Grid
 The Grid system is a responsive layout that allows elements to be positioned
 cleanly without using flex boxes. Simply apply different classes as you did in
@@ -61,9 +128,6 @@ an image of your choice to the other second child. It should look like this:
 devices
 
 Grid Gutters are useful for controlling
-
-
-## Navbar, Customizer
 
 ## Adding an Image Slideshow with Navigation Buttons
 
