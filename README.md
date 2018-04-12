@@ -357,6 +357,7 @@ To animate an individual component, just add one attribute to its html:
 data-uk-scrollspy="{cls:'uk-animation-fade'}"
 ```
 For a full list of possible animations, check out [link](https://getuikit.com/v2/docs/animation.html)
+
 Let's animate the first two grids!
 Try getting the content on the left side of the grids to slide in from the left, and the content on the right to slide in from the right.
 It should look something like this:
