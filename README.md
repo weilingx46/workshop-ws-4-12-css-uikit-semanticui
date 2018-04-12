@@ -1,6 +1,7 @@
 # UIkit Workshop: Tutorial
 
 ### CS 52, Spring 2018
+UiKit is a lightweight open-source front-end framework for developing web interfaces. Today, we're going to explore some cool webpage features you can easily implement using UiKit.
 
 ## Overview
 In this tutorial, we're going to use UiKit to easily build a classy landing page. We mimic the Dartmouth homepage - by the end of the tutorial, you'll have a landing page that looks something like the following:
