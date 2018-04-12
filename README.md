@@ -98,10 +98,10 @@ Begin by taking a look at how the nested grid system works.
 Similar to Bootstrap, you can apply multiple classes into an HTML element. These are
 example classes that will be most commonly used:
 
-'.uk-grid': applied to grid containers
-'.uk-width-2-5': specifies how the container will be divided
-'.uk-push-3-10': specifies margins between elements in the same container
-'.uk-grid-medium': unifies the spacing between elements to medium
+`.uk-grid`: applied to grid containers
+`.uk-width-2-5`: specifies how the container will be divided
+`.uk-push-3-10`: specifies margins between elements in the same container
+`.uk-grid-medium`: unifies the spacing between elements to medium
 
 The grid container (parent div) can be divided into halves, thirds, fourths,
 fifths, sixths, and tenths. The children can then be divided again like the following:
@@ -113,14 +113,14 @@ grid container and li tags as the individual columns.
 
 Grid Gutters are useful for controlling spaces between grid columns. From the
 layout you just have, apply a large gutter and a small gutter. Adjust the gutter
-size using '.uk-grid-large', '.uk-grid-medium', or '.uk-grid-small'. If you want to
-manually adjust spaces, use the '.uk-push/pull-*' class. If you need spacing between
-each container, apply the '.data-uk-grid-margin' class.
+size using `.uk-grid-large`, `.uk-grid-medium`, or `.uk-grid-small`. If you want to
+manually adjust spaces, use the `.uk-push/pull-*` class. If you need spacing between
+each container, apply the `.data-uk-grid-margin` class.
 
 Your turn! Divide the parent container into a size of your choice and then
 one of its children into a size of your choice again (feel free to keep going!)
 We have some sample images in our *img* folder, so feel free to use those. If you'd
-like to insert a paragraph and center it, apply the .uk-text-center class.
+like to insert a paragraph and center it, apply the `.uk-text-center` class.
 
 Your HTML elements should look something like this:
 
