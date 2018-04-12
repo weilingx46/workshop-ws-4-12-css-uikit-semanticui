@@ -140,8 +140,7 @@ Your HTML elements should look something like this:
 "medium", or "large" after "width" to have to have response from different
 devices.
 
-If you'd like to learn more about grids, please check out this link:
-https://getuikit.com/v2/docs/grid.html
+If you'd like to learn more about grids, please check out this [link](https://getuikit.com/v2/docs/grid.html)
 
 ## Adding an Image Slideshow with Navigation Buttons
 
@@ -259,10 +258,11 @@ Some components that we recommend for future projects...
   + Dynamic Grid (super cool)
   + Search
   + Accordion
-  + slideshow
+  + Slideshow
 
 ## Resources
 
+   * [Our Slide Deck](https://docs.google.com/presentation/d/1lbW8hplNwptF1FJcyNFEIEKIbn2PuMa5igbNJpVxqpY/edit?usp=sharing)
    * [Comparison Bootstrap vs UIkit](https://www.slant.co/versus/504/10831/~bootstrap_vs_uikit)
    * [UIkit v2 Tutorials](https://getuikit.com/v2/docs/tutorials.html)
    * [UIkit Core](https://getuikit.com/v2/docs/core.html)
