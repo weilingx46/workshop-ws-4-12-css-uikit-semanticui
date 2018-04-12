@@ -2,6 +2,15 @@
 
 ### CS 52, Spring 2018
 
+## Overview
+In this tutorial, we're going to use UiKit to easily build a classy landing page. We mimic the Dartmouth homepage - by the end of the tutorial, you'll have a landing page that looks something like the following:
+
+We'll be implementing the following components:
+- [ ] A nicely formatted header and navbar
+- [ ] A grid layout for your webpage
+- [ ] An autoplaying slideshow with responsive navigation buttons
+- [ ] (Chris) insert something about Scrollspy
+
 ## Getting Started!
 
 To begin, start by going to this [Github repo](https://github.com/dartmouth-cs52-18S/workshop-ws-4-12-css-uikit-semanticui) and `forking` it to your account.
