@@ -252,3 +252,7 @@ Some components that we recommend for future projects...
    Search
    Accordion
    slideshow
+
+## Resources
+
+   * [Slideshow Documentation](https://getuikit.com/v2/docs/slideshow.html)
