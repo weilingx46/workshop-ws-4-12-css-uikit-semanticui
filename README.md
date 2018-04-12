@@ -263,6 +263,7 @@ Some components that we recommend for future projects...
 
 ## Resources
 
+   * [Our Slide Deck](https://docs.google.com/presentation/d/1lbW8hplNwptF1FJcyNFEIEKIbn2PuMa5igbNJpVxqpY/edit?usp=sharing)
    * [Comparison Bootstrap vs UIkit](https://www.slant.co/versus/504/10831/~bootstrap_vs_uikit)
    * [UIkit v2 Tutorials](https://getuikit.com/v2/docs/tutorials.html)
    * [UIkit Core](https://getuikit.com/v2/docs/core.html)
