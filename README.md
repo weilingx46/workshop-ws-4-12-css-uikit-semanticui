@@ -8,10 +8,9 @@ In this tutorial, we're going to use UiKit to easily build a classy landing page
 ![Finished Webpage](/tutorial-screenshots/final-webpage.gif)
 
 We'll be implementing the following components:
-- [ ] A nicely formatted header and navbar
-- [ ] A grid layout for your webpage
+- [ ] A formatted and responsive header and navbar
+- [ ] Nicely aligned content using the UiKit grid layout
 - [ ] An autoplaying slideshow with responsive navigation buttons
-- [ ] Content nicely aligned using the UiKit grid layout
 - [ ] Some images and text using smooth javascript animations
 
 ## Getting Started!
