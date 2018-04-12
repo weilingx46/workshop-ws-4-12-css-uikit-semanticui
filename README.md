@@ -2,11 +2,16 @@
 
 ### CS 52, Spring 2018
 
-### 04/12/2018
+## Getting Started!
+
+To begin, start by going to this [Github repo](https://github.com/dartmouth-cs52-18S/workshop-ws-4-12-css-uikit-semanticui) and `forking` it to your account.
+
+![Forking](/tutorial-screenshots/fork.png)
+
+Now you have your own version of our workshop repo that you can change and push to.
 
 ## Header and Navigation Bar
-
-Let's turn to the header and the navigation bar. The [Dartmouth homepage's](https:www.dartmouth.edu) header is rather unique, but even so we can mimic it closely using the flexibility of uikit. You should begin with the HTML header structure which we have provided:
+Let's turn to the header and the navigation bar. The [Dartmouth homepage's](https:www.dartmouth.edu) header is rather unique, but even so we can mimic it closely using the flexibility of UIkit. You should begin with the HTML header structure which we have provided:
 
 ```HTML
 <header class="">
@@ -21,7 +26,7 @@ Let's turn to the header and the navigation bar. The [Dartmouth homepage's](http
     <nav class="">
       <ul class="">
         <li class="" data-uk-dropdown>
-          <a href="#">EDUCATION</a>
+          <a href="#">EDUCATION</a>git 
           <div class="">
             <ul class="">
               <li><a href="#">Degree Finder</a></li>
@@ -87,40 +92,23 @@ the classes that will be most commonly used:
 .uk-width-(fraction): specifies how the container will be divided
 
 The grid container (parent div) can be divided into halves, thirds, fourths,
-fifths, sixths, and tenths. Once sum of the fractions listed in the width classes
-pass 1 (i.e. uk-grid-width-1-2 comes after two width-1-2, )
-
-
-The children can then be divided again like the following:
+fifths, sixths, and tenths. The children can then be divided again like the following:
 ![screen shot 2018-04-11 at 5 36 52 pm](https://user-images.githubusercontent.com/25258775/38644571-fbe88042-3dae-11e8-9436-f9437f4a98ef.png)
 
 Your turn! Divide the parent container into half and one of its children into half
 again. Add the 'grid-1.jpg' to the first child, a text to the second child, and
 an image of your choice to the other second child. It should look like this:
 
+If you'd like to
 
 ```html
 <div class="uk-grid">
-    <div class="uk-width-large-1-2">
-        <a href="#"><img src="img/grid-1.jpg"></a>
-    </div>
-    <div class="uk-width-large-1-2 uk-grid">
-        <div class="uk-width-large-1-2">
-            <a href="#"> <img src="https://home.dartmouth.edu/sites/default/files/styles/hover_feature/public/2015-1058110353.jpg?itok=5nAbdBWo"> </a>
-        </div>
-        <div class="uk-width-large-1-2 uk-align-center">
-            <a href="#"> <img src="img/grid-2.jpg"> </a>
-        </div>
-        <div class="uk-width-small-1-2 uk-grid-match">
-            <p> Roshini Pinto-Powell, a professor at the Geisel School of Medicine, discusses an ongoing pay gap between female and male doctors. The exact size of this gap varies from study to study―by which I mean it ranges from bad to worse. </p>
-        </div>
-        <div class="uk-width-small-1-2 uk-grid-match">
-            <h3>EVENTS</h3>
-            <p> APRIL 11 <br> Presidential Faculty Lecture: Sexual Violence, Social Meanings, and Narrative Selves </p>
-            <p> APRIL 11 <br> Workshop: Introduction to Entrepreneurship, Daniella Reichstetter, Tuck 07, Tuck School of Business </p>
-            <p> APRIL 11 <br> Artist Talk: Using Your Voice, singer Dayme Arocena talks with Dartmouths Taylor Ho Bynum </p>
-        </div>
-    </div>
+  <div class="uk-grid-width-3-10">
+    <p> I love CS52! </p>
+  </div>
+  <div class="uk-grid-width-7-10">
+    <p> I am an Engineer. </p>
+  </div>
 </div>
 ```
 (optional) Like flex boxes, we can make these divs responsive. Add the word
@@ -211,3 +199,39 @@ Now, you'll be able to navigate back and forth between images. But what if we wa
 You should get something that looks like this:
 ![slideshow-dots](tutorial-screenshots/slideshow-dots.png)
 Hooray! You've created an image slideshow with elegant navigation buttons.
+
+## Customizer (Extra Steps)
+
+One of the best features of UIkit is the `Customizer`. The Customizer is a tool on the UIkit's website that allows you to easily change the CSS attributes of any of their components. When you are done, you can just export your customized UIkit stylesheet and add it to your UIkit directory.
+
+![UIkit Customizer](/tutorial-screenshots/uikit.PNG)
+
+Let's go ahead and try it out! Go to the [UIKit Customizer](https://getuikit.com/v2/docs/customizer.html).
+
+You'll see that the Customizer is set up so that a main page is displayed with components, and that the menu on the left allows you to change CSS properties. 
+
+Under the dropdown menu, select `Almost Flat` (it should be preselected). Then let's check the `Advanced Mode` checkbox to see all the properties we can change.
+
+You'll see that the menu is organized alphabetically by CSS component names, which can be a little annoying to navigate since you need to scroll through to find a specific component. The Customizer also only includes the Core components, which means that customizing any extra components will require hard coding into the CSS stylesheet.
+
+Make some changes to the color scheme and fonts in the Customizer, as well as any other changes that you want. The main page will update to reflect your custom CSS properties. Feel free to play around!
+
+When you're done customizing, you can click on the `Get CSS` button on the bottom to download a custom `uikit.css` file. Replace the `uikit.css` in your repo (located in `repo directory > uikit > css`) with your custom file. Open up your webpage, and the theme should have changed to your custom theme!
+
+## Explore on your own (Extra Steps)
+
+If you have time, take a look at the [UIkit website](https://getuikit.com/v2/index.html) and check out some of the other components under the "Core" and "Component" tabs.
+
+Some components that we recommend for future projects...
+
++ Core
+  + Off-Canvas
+  + Smooth Scroll
+  + Animation
+
+
++ Extra components
+  + Dynamic Grid (super cool)
+  + Search
+  + Accordion
+  + slideshow
